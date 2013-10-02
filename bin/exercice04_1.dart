@@ -19,6 +19,6 @@ void fibonacci(var number){
     y = x;
     x = somme;  
   } 
- print('\n deuxieme version');
- print (fibo);
+  print('\n deuxieme version');
+  print (fibo);
 }

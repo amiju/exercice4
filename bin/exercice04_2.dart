@@ -1,6 +1,6 @@
 import "dart:math";
 
-Map findEndPoint(num beginX, num beginY, num beginAngle, num length){
+Map findEndPoint(num beginX, num beginY, num beginAngle, num length) {
   
   var radian = (beginAngle * PI) / 180 ;
   
@@ -12,7 +12,7 @@ Map findEndPoint(num beginX, num beginY, num beginAngle, num length){
   return point;
 }
 
-Map center (num beginX, num beginY, num width, num height){
+Map center (num beginX, num beginY, num width, num height) {
   
   var x = (beginX + width) / 2;
   var y = (beginY + height) / 2;
@@ -31,7 +31,7 @@ void main() {
   num width = 980;
   num height = 660;
   
-  Map cen = center(beginX0,beginY0,width,height);
+  Map cen = center(beginX0, beginY0, width, height);
   print('coordonnees du centre');
   print (cen);
   

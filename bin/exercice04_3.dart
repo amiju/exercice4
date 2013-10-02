@@ -6,7 +6,7 @@ void main() {
  
 }
 
-void DateNaissance(var Birthday){
+void DateNaissance(var Birthday) {
   
 DateTime birthday = DateTime.parse(Birthday);
   
@@ -16,7 +16,7 @@ DateTime birthday = DateTime.parse(Birthday);
   
   var duree = difference.inDays;
   
-  print ('$duree \n');
+  print('$duree \n');
   
   var annee = duree ~/ 365;
   var mois = duree % 365 ~/ 12 + 1;
@@ -24,6 +24,6 @@ DateTime birthday = DateTime.parse(Birthday);
   
   DateTime dateBetween = new DateTime(annee, mois, jours);
   
-  print (dateBetween);
+  print(dateBetween);
   
 }

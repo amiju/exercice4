@@ -1,0 +1,15 @@
+ex04
+
+8/10
+
+oui, j'ai vu votre fichier olga.txt dans doc
+(-1) README.md: nom du cours, votre nom ?
+la prochaine fois, ce sera -10
+
+formater le code
+
+4.3
+(-1) mois, jours ?
+
+4.5
+une seule table

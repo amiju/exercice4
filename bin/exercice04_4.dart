@@ -7,17 +7,17 @@ void main() {
   
 }
 
-double CalculInterest(var Montant, double interet){
+double CalculInterest(var Montant, double interet) {
   
   double total = 1.0;
   var resultat; 
   
-  for (var i=1; i <= 10; i++){
+  for (var i=1; i <= 10; i++) {
     total = total * (1 + interet);    
   }
   
   resultat = Montant * total;
   
-  print (total);
+  print(total);
   
 }
